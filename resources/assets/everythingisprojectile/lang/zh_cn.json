@@ -1,0 +1,15 @@
+{
+  "item.everythingisprojectile.projectile_gauntlet": "弹射手套",
+  "item.everythingisprojectile.iron_projectile_gauntlet": "铁制弹射手套",
+  "item.everythingisprojectile.diamond_projectile_gauntlet": "钻石弹射手套",
+  "item.everythingisprojectile.creative_projectile_gauntlet": "创造弹射手套",
+  "itemGroup.everythingisprojectile.main": "万物皆可发射",
+  "gui.everythingisprojectile.gauntlet_slot": "手套槽",
+  "subtitles.everythingisprojectile.gauntlet_equip": "手套穿戴",
+  "enchantment.everythingisprojectile.might": "大力",
+  "effect.everythingisprojectile.headhurt": "脑震荡",
+  "effect.everythingisprojectile.nausea": "恶心",
+  "effect.everythingisprojectile.bleeding": "流血",
+  "effect.everythingisprojectile.onfire": "燃烧",
+  "effect.everythingisprojectile.freezing": "冷"
+}

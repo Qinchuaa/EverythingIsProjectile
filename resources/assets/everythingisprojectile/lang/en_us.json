@@ -1,0 +1,15 @@
+{
+  "item.everythingisprojectile.projectile_gauntlet": "Projectile Gauntlet",
+  "item.everythingisprojectile.iron_projectile_gauntlet": "Iron Projectile Gauntlet",
+  "item.everythingisprojectile.diamond_projectile_gauntlet": "Diamond Projectile Gauntlet",
+  "item.everythingisprojectile.creative_projectile_gauntlet": "Creative Projectile Gauntlet",
+  "itemGroup.everythingisprojectile.main": "Everything is a Projectile",
+  "gui.everythingisprojectile.gauntlet_slot": "Gauntlet Slot",
+  "subtitles.everythingisprojectile.gauntlet_equip": "Gauntlet equip",
+  "enchantment.everythingisprojectile.might": "Might",
+  "effect.everythingisprojectile.headhurt": "Headhurt",
+  "effect.everythingisprojectile.nausea": "Nausea",
+  "effect.everythingisprojectile.bleeding": "Bleeding",
+  "effect.everythingisprojectile.onfire": "On Fire",
+  "effect.everythingisprojectile.freezing": "Freezing"
+}

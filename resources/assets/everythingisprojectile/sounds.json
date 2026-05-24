@@ -1,0 +1,11 @@
+{
+  "gauntlet_equip": {
+    "subtitle": "subtitles.everythingisprojectile.gauntlet_equip",
+    "sounds": [
+      {
+        "name": "minecraft:item.armor.equip_leather",
+        "type": "event"
+      }
+    ]
+  }
+}

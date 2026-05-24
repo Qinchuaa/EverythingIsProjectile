@@ -1,0 +1,32 @@
+{
+  "description": {
+    "translate": "enchantment.everythingisprojectile.might"
+  },
+  "supported_items": [
+    "everythingisprojectile:projectile_gauntlet",
+    "everythingisprojectile:iron_projectile_gauntlet",
+    "everythingisprojectile:diamond_projectile_gauntlet",
+    "everythingisprojectile:creative_projectile_gauntlet"
+  ],
+  "primary_items": [
+    "everythingisprojectile:projectile_gauntlet",
+    "everythingisprojectile:iron_projectile_gauntlet",
+    "everythingisprojectile:diamond_projectile_gauntlet",
+    "everythingisprojectile:creative_projectile_gauntlet"
+  ],
+  "weight": 4,
+  "max_level": 5,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 18,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "hand"
+  ],
+  "effects": {}
+}

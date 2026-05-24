@@ -1,0 +1,15 @@
+# Image resources
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.bmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.log

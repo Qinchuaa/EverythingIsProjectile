@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DGD",
+    " D "
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "G": "everythingisprojectile:iron_projectile_gauntlet"
+  },
+  "result": {
+    "id": "everythingisprojectile:diamond_projectile_gauntlet",
+    "count": 1
+  }
+}

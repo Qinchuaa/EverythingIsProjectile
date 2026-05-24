@@ -1,0 +1,36 @@
+# See https://docs.minecraftforge.net/en/1.21.x/gettingstarted/modfiles/#modstoml
+# There are lots of things you can do with the mods.toml, and not all fields are included with this MDK
+# References: https://github.com/MinecraftForge/MDKExamples
+
+modLoader="javafml"
+loaderVersion="[64,)"
+license="All Rights Reserved"
+#issueTrackerURL="https://github.com/MyOrganization/MyMod/" #optional
+#clientSideOnly=true #optional, default=false
+
+[[mods]]
+modId="everythingisprojectile"
+version="0.1.0"
+displayName="EiP"
+#updateJSONURL="https://example.com/updates.json" #optional
+#displayURL="https://example.com/" #optional
+logoFile="logo.png"
+#credits="" #optional
+authors="chuyunn" #optional
+#displayTest="MATCH_VERSION" #optional, default=MATCH_VERSION when not clientSideOnly, else IGNORE_ALL_VERSION
+
+description='''A Forge 26.1 mod prototype built around the idea that nearly any inventory item or captured block can become a projectile.'''
+
+[[dependencies.everythingisprojectile]] #recommended
+    modId="forge"
+    mandatory=true
+    versionRange="[64,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.everythingisprojectile]] #recommended
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.1.2,26.2,)"
+    ordering="NONE"
+    side="BOTH"
