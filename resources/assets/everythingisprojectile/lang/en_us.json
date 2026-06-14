@@ -11,5 +11,7 @@
   "effect.everythingisprojectile.nausea": "Nausea",
   "effect.everythingisprojectile.bleeding": "Bleeding",
   "effect.everythingisprojectile.onfire": "On Fire",
-  "effect.everythingisprojectile.freezing": "Freezing"
+  "effect.everythingisprojectile.freezing": "Freezing",
+  "entity.everythingisprojectile.any_projectile": "Projectile",
+  "subtitles.everythingisprojectile.projectile_launch": "Block: Launch"
 }

@@ -28,7 +28,7 @@ public final class ModConfig {
 
     private static final ForgeConfigSpec.IntValue MAX_PROJECTILES_PER_PLAYER = BUILDER
         .comment("Soft cap for simultaneous projectiles owned by one player.")
-        .defineInRange("maxProjectilesPerPlayer", 16, 1, 256);
+        .defineInRange("maxProjectilesPerPlayer", Integer.MAX_VALUE, 1, Integer.MAX_VALUE);
 
     private static final ForgeConfigSpec.IntValue PROJECTILE_LIFE_TICKS = BUILDER
         .comment("Maximum lifetime for any projectile.")

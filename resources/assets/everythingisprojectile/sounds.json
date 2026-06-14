@@ -7,5 +7,14 @@
         "type": "event"
       }
     ]
+  },
+  "projectile_launch": {
+    "subtitle": "subtitles.everythingisprojectile.projectile_launch",
+    "sounds": [
+      {
+        "name": "minecraft:entity.arrow.shoot",
+        "type": "event"
+      }
+    ]
   }
 }

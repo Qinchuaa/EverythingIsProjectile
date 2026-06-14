@@ -4,7 +4,7 @@
 
 modLoader="javafml"
 loaderVersion="[64,)"
-license="All Rights Reserved"
+license="Apache-2.0"
 #issueTrackerURL="https://github.com/MyOrganization/MyMod/" #optional
 #clientSideOnly=true #optional, default=false
 

@@ -14,6 +14,9 @@ public final class ModSounds {
     public static final RegistryObject<SoundEvent> GAUNTLET_EQUIP = SOUND_EVENTS.register("gauntlet_equip",
         () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath(EverythingIsProjectileMod.MODID, "gauntlet_equip")));
 
+    public static final RegistryObject<SoundEvent> PROJECTILE_LAUNCH = SOUND_EVENTS.register("projectile_launch",
+        () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath(EverythingIsProjectileMod.MODID, "projectile_launch")));
+
     private ModSounds() {
     }
 }

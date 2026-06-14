@@ -11,11 +11,13 @@ import com.minecraft26.everythingisprojectile.gauntlet.GauntletFiringEvents;
 import com.minecraft26.everythingisprojectile.gauntlet.GauntletSlotEvents;
 import com.minecraft26.everythingisprojectile.network.NetworkHandler;
 import com.minecraft26.everythingisprojectile.registry.ModCreativeTabs;
-import com.minecraft26.everythingisprojectile.registry.ModEntities;
 import com.minecraft26.everythingisprojectile.registry.ModEffects;
+import com.minecraft26.everythingisprojectile.registry.ModEntities;
+import com.minecraft26.everythingisprojectile.registry.StableEnchantmentPack;
 import com.minecraft26.everythingisprojectile.registry.ModItems;
 import com.minecraft26.everythingisprojectile.registry.ModSounds;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.event.AddPackFindersEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -41,6 +43,7 @@ public final class EverythingIsProjectileMod {
         GauntletSlotEvents.register();
         GauntletFiringEvents.register();
         ModEffectHooks.register();
+        AddPackFindersEvent.BUS.addListener(StableEnchantmentPack::onAddPackFinders);
 
         context.registerConfig(net.minecraftforge.fml.config.ModConfig.Type.COMMON, ModConfig.SPEC);
 

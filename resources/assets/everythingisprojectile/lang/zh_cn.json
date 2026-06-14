@@ -11,5 +11,7 @@
   "effect.everythingisprojectile.nausea": "恶心",
   "effect.everythingisprojectile.bleeding": "流血",
   "effect.everythingisprojectile.onfire": "燃烧",
-  "effect.everythingisprojectile.freezing": "冷"
+  "effect.everythingisprojectile.freezing": "冷",
+  "entity.everythingisprojectile.any_projectile": "投射物",
+  "subtitles.everythingisprojectile.projectile_launch": "方块:发射"
 }

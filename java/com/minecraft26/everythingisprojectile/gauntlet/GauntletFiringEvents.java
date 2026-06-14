@@ -9,7 +9,7 @@ import com.minecraft26.everythingisprojectile.network.NetworkHandler;
 import com.minecraft26.everythingisprojectile.registry.ModEnchantments;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvents;
+import com.minecraft26.everythingisprojectile.registry.ModSounds;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -170,7 +170,7 @@ public final class GauntletFiringEvents {
                 player.getX(),
                 player.getY(),
                 player.getZ(),
-                SoundEvents.ARROW_SHOOT,
+                ModSounds.PROJECTILE_LAUNCH.get(),
                 SoundSource.PLAYERS,
                 0.9F,
                 (float) (0.85F + drawPower * 0.35F + (projectileTraits.horizontalVelocityMultiplier() - 1.0D) * 0.2D)
